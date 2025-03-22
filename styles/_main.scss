@@ -13,7 +13,6 @@
   // .main__wrapper
   &__wrapper {
     width: 100%;
-    // padding: 51px 64px 10px 64px;
   }
 
   // .main__header
@@ -36,6 +35,12 @@
     font-weight: 500;
     line-height: 1.2;
     border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out 0s;
+    &:hover{
+      background-color: $color;
+      color: rgb(255, 255, 255);
+    }
   }
 
   // .main__info
@@ -96,5 +101,3 @@
     color: rgb(59, 45, 222);
   }
 }
-
-
