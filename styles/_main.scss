@@ -17,18 +17,20 @@
 
   // .main__header
   &__header {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
     gap: 20px;
-    padding: 51px 64px 65px 77px;
+    padding: 51px 64px 65px 36px;
   }
 
   // .main__btn
   &__btn {
-    padding: 12px 42px;
+    padding: 19px 42px;
     margin-bottom: 65px;
     border: none;
     outline: none;
     background-color: $primary-color;
+    text-transform: uppercase;
     color: rgb(0, 0, 0);
     font-family: Lato;
     font-size: 20px;
@@ -37,7 +39,12 @@
     border-radius: 40px;
     cursor: pointer;
     transition: all 0.4s ease-in-out 0s;
-    &:hover{
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
       background-color: $color;
       color: rgb(255, 255, 255);
     }

@@ -139,16 +139,18 @@ body {
   width: 100%;
 }
 .main__header {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
   gap: 20px;
-  padding: 51px 64px 65px 77px;
+  padding: 51px 64px 65px 36px;
 }
 .main__btn {
-  padding: 12px 42px;
+  padding: 19px 42px;
   margin-bottom: 65px;
   border: none;
   outline: none;
   background-color: rgb(192, 187, 255);
+  text-transform: uppercase;
   color: rgb(0, 0, 0);
   font-family: Lato;
   font-size: 20px;
@@ -157,6 +159,9 @@ body {
   border-radius: 40px;
   cursor: pointer;
   transition: all 0.4s ease-in-out 0s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .main__btn:hover {
   background-color: rgb(146, 136, 255);
