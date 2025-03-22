@@ -1,0 +1,97 @@
+@import "./_vars.scss";
+
+.sony {
+  background: $overlay-color;
+  padding: 54px 52px 239px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 0 14px 14px 14px;
+  border-right: 15px solid $primary-color;
+  border-bottom: 15px solid $primary-color;
+  position: relative;
+  &::before {
+    // content: "";
+    // width: 26px;
+    // height: 26px;
+    // border-radius: 50%;
+    // background: $overlay-color;
+    // position: absolute;
+    // right: -4.9px;
+    // bottom: -1.9px;
+  }
+  // .sony__titles
+  &__titles {
+    margin-bottom: 131px;
+  }
+
+  // .sony__title
+  &__title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  // .sony__subtitle
+  &__subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  // .sony__main-text
+  &__main-text {
+  }
+
+  // .sony__aside-line
+  &__aside-line {
+    border-radius: 20px;
+    background: rgb(196, 196, 196);
+    width: 8px;
+    height: 140px;
+    position: absolute;
+    top: 50%;
+    left: 52px;
+    transform: translateY(-50%);
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      border-radius: 20px;
+      background: $color;
+      width: 8px;
+      height: 80px;
+    }
+  }
+
+  // .sony__btn-video
+  &__btn-video {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    position: absolute;
+    bottom: -38px;
+    right: 50px;
+    border-radius: 10px;
+    background: $color;
+    padding: 19px 37px;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    gap: 14px;
+    cursor: pointer;
+    & img {
+      background: rgb(255, 255, 255);
+      border-radius: 50%;
+      padding: 8px 7px;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    &:hover img {
+      transform: translateX(5px);
+    }
+  }
+}
