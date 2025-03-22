@@ -234,11 +234,18 @@ body {
 .carousel {
   position: relative;
   margin-bottom: 45px;
+  overflow: hidden;
+  width: 603px;
+  height: 452px;
 }
-.carousel__picture img {
+.carousel__line {
+  position: relative;
+  display: flex;
+}
+.carousel img {
+  max-width: 603px;
+  max-height: 452px;
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 .btn-prev,
 .btn-next {
@@ -246,6 +253,8 @@ body {
   padding: 12px 31px;
   position: absolute;
   top: 30%;
+  cursor: pointer;
+  z-index: 3;
 }
 
 .btn-prev {
