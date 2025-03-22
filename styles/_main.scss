@@ -1,0 +1,175 @@
+@import "./_vars.scss";
+.main {
+  width: 1440px;
+  height: 80vh;
+  margin: auto;
+  border: 20px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 30px 30px 20px 0px rgba(146, 136, 255, 0.4);
+  background: rgb(255, 255, 255);
+  // .main__wrapper
+  &__wrapper {
+  }
+
+  // .main__header
+  &__header {
+  }
+
+  // .main__btn
+  &__btn {
+  }
+
+  // .main__info
+  &__info {
+  }
+
+  // .main__subtitle
+  &__subtitle {
+  }
+
+  // .main__title
+  &__title {
+  }
+
+  // .main__btn-plus
+
+  &__btn-plus {
+  }
+
+  // .main__btn-minus
+
+  &__btn-minus {
+  }
+
+  // .main__container
+
+  &__container {
+  }
+
+  // .main__text
+
+  &__text {
+  }
+
+  // .main__description
+
+  &__description {
+  }
+
+  // .main__link
+
+  &__link {
+  }
+}
+.sony {
+  background: $overlay-color;
+  padding: 54px 52px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  border-right: 15px solid $primary-color;
+  border-bottom: 15px solid $primary-color;
+  position: relative;
+  // .sony__titles
+  &__titles {
+    margin-bottom: 131px;
+  }
+
+  // .sony__title
+  &__title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  // .sony__subtitle
+  &__subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  // .sony__main-text
+
+  &__main-text {
+    // ! проверить нужно
+    // padding: 0 78px 0 95px;
+  }
+
+  // .sony__aside-line
+  &__aside-line {
+    border-radius: 20px;
+    background: rgb(196, 196, 196);
+    width: 8px;
+    height: 140px;
+    position: absolute;
+    top: 50%;
+    left: 52px;
+    transform: translateY(-50%);
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      border-radius: 20px;
+      background: $color;
+      width: 8px;
+      height: 80px;
+    }
+  }
+
+  // .sony__btn-video
+
+  &__btn-video {
+  }
+}
+.text-main {
+  max-width: 476px;
+
+  // .text-main__title
+  &__title {
+    max-width: 268px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.46;
+    margin-bottom: 31px;
+  }
+
+  // .text-main__subtitle
+  &__subtitle {
+    color: $color;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+
+  // .text-main__desc
+  &__desc {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  // .text-main__price
+  &__price {
+  }
+}
+.carousel {
+  // .carousel__picture
+  &__picture {
+  }
+
+  // .carousel__btn
+  &__btn {
+  }
+}
+.btn-prev {
+}
+.btn-next {
+}
