@@ -128,7 +128,7 @@ body {
 .main {
   display: flex;
   width: 1480px;
-  margin: auto;
+  margin: 20px auto;
   padding: 0 0 137px 0;
   border: 20px solid rgb(0, 0, 0);
   border-radius: 30px;
