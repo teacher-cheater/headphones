@@ -2,7 +2,6 @@
 .main {
   display: flex;
   width: 1480px;
-  // height: 80vh;
   margin: auto;
   padding: 0 0 137px 0;
   border: 20px solid rgb(0, 0, 0);
@@ -22,7 +21,6 @@
     display: grid;
     grid-template-columns: repeat(4, 169px);
     gap: 20px;
-    // padding: 51px 64px 65px 36px;
     padding: 51px 30px 65px 30px;
   }
 
@@ -69,21 +67,11 @@
   // .main__title
   &__title {
     max-width: 276px;
-    color: rgb(59, 45, 222);
+    color: $secondary-color;
     font-family: Lato;
     font-size: 36px;
     font-weight: 400;
     line-height: 1.11;
-  }
-
-  // .main__btn-plus
-  &__btn-plus {
-    display: none;
-  }
-
-  // .main__btn-minus
-  &__btn-minus {
-    display: none;
   }
 
   // .main__container
@@ -143,6 +131,6 @@
 
   // .main__link
   &__link {
-    color: rgb(59, 45, 222);
+    color: $secondary-color;
   }
 }

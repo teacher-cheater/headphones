@@ -112,11 +112,6 @@ tabButtons.forEach(btn => {
 });
 
 const orderBtn = document.querySelector(".order-btn");
-const orderForm = document.querySelector(".order-form");
-
-orderBtn.addEventListener("click", () => {
-  orderForm.classList.toggle("hidden");
-});
 
 const modal = document.querySelector(".modal");
 const closeBtn = document.querySelector(".close-btn");

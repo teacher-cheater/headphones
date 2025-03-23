@@ -186,12 +186,6 @@ body {
   font-weight: 400;
   line-height: 1.11;
 }
-.main__btn-plus {
-  display: none;
-}
-.main__btn-minus {
-  display: none;
-}
 .main__container {
   margin: 0 auto 45px;
   display: none;

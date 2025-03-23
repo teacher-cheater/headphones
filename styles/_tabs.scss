@@ -12,19 +12,9 @@
 }
 
 .tab-btn.active {
-  background: rgb(59, 45, 222);
+  background: $secondary-color;
   color: rgb(255, 255, 255);
 }
-
-// .tab-content {
-//   display: none;
-//   padding: 15px;
-//   border: 1px solid #ccc;
-// }
-
-// .tab-content.active {
-//   display: block;
-// }
 
 .order-form {
   margin-top: 20px;
