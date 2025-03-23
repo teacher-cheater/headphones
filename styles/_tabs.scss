@@ -1,0 +1,38 @@
+@import "./vars.scss";
+
+.tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.tab-btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.tab-btn.active {
+  background: rgb(59, 45, 222);
+  color: rgb(255, 255, 255);
+}
+
+// .tab-content {
+//   display: none;
+//   padding: 15px;
+//   border: 1px solid #ccc;
+// }
+
+// .tab-content.active {
+//   display: block;
+// }
+
+.order-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}

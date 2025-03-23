@@ -26,17 +26,68 @@
       </aside>
       <section class="main__wrapper">
         <div class="main__header">
-          <button class="main__btn">description</button>
-          <button class="main__btn">characteristics</button>
-          <button class="main__btn">ORDER NOW</button>
+          <button class="main__btn tab-btn active" data-tab="product">
+            product
+          </button>
+          <button class="main__btn tab-btn" data-tab="description">
+            description
+          </button>
+          <button class="main__btn tab-btn" data-tab="characteristics">
+            characteristics
+          </button>
+          <button class="main__btn order-btn">ORDER NOW</button>
         </div>
+
         <div class="main__info">
           <h3 class="main__subtitle">02</h3>
           <h2 class="main__title">BASS BOOSTED HEADPHONES</h2>
           <button class="main__btn-plus">+</button>
           <button class="main__btn-minus">-</button>
         </div>
-        <div class="main__container carousel">
+
+        <div class="main__container" id="description">
+          <p class="main__desc-product">
+            Это сочетание технологий и превосходного звучания, которое
+            предлагает пользователям отличное качество звука. Эти наушники
+            создают полное погружение в звук благодаря глубоким басам, чётким
+            средним частотам, кристально чистым верхам.
+          </p>
+        </div>
+
+        <div class="main__container" id="characteristics">
+          <table class="main__table">
+            <tr>
+              <td>Модель</td>
+              <td>XYZ-123</td>
+            </tr>
+            <tr>
+              <td>Тип</td>
+              <td>Беспроводные</td>
+            </tr>
+            <tr>
+              <td>Автономность</td>
+              <td>20 часов</td>
+            </tr>
+            <tr>
+              <td>Вес, г</td>
+              <td>386</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="modal hidden">
+          <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Order now</h2>
+            <input type="text" placeholder="Name" id="name" />
+            <input type="tel" placeholder="Phone number" id="phone" />
+            <button class="submit-btn">
+              Send <img src="./images/arrow.svg" alt="arrow next" />
+            </button>
+          </div>
+        </div>
+
+        <div class="main__container active carousel" id="product">
           <button class="btn-prev">
             <img src="./images/arrow-left.svg" alt="prev" />
           </button>
